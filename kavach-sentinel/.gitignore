@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Videos / Datasets
+*.mp4
+*.avi
+*.mkv
+mask_dataset/
+
+# Environment
+.env
+venv/
+env/
+
+# Note: We purposefully do NOT ignore .pt files 
+# because yolo11n_threat_detection.pt and identity_classifier.pt 
+# are required custom models for this project.
+!yolo11n_threat_detection.pt
+!identity_classifier.pt
